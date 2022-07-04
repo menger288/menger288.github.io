@@ -12,9 +12,33 @@ header {
 
 body {
     background-color: black;
+    color: white;
+}
+
+article {
+    text-align: center;
 }
 
 .headeritem {
     width: 5%;
     vertical-align: middle;
+}
+
+.float-left-area {
+    margin-top: 1vw;
+    float: left;
+}
+
+.float-right-area {
+    margin-top: 1vw;
+    float: right;
+}
+
+.werbungitem {
+    width: 15vw;
+}
+
+.inhalt {
+    margin-top: 1vw;
+    font-size: 1.5vw;
 }
