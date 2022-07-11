@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Schwarzbuch</title>
+    <meta name="author" content="Oliver">
+    <meta name="description" content="Startseite des Nudelhaus">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1/jquery-ui.min.css" type="text/css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <script src="jquery-ui-1.13.1/jquery-ui.min.js"></script>
+<!--    <script src="jquery-ui-1.13.1/jquery-ui.min.css"></script>-->
+
+</head>
+<body>
+<div class="grid-box">
+    <div class="box-1">
+        <header>
+            <img src="./bilder/bdst_logo.png" class="logo">
+            <span class="logo">Das Schwarzbuch</span>
+            <span id="dropdown">Die Fälle&#9662;</span>
+            <input type="checkbox" id="menu_checkbox">
+            <label for="menu_checkbox" class="nav">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </label>
+            <a href="https://www.facebook.com/bunddersteuerzahler"><img src="bilder/facebook.png" id="facebook"></a>
+            <a href="https://twitter.com/bdsteuerzahler?lang=de"><img src="bilder/twitter.png" id="twitter"></a>
+        </header>
+    </div>
+    <div class="box-2">
+        <img src="./bilder/foto1.png" class="werbungimg" onclick="dialogbox()";>
+        <div id="dialog" title="Weiterleitungshinweis" >
+            <p>Wollen Sie die Website wirklich verlassen?</p>
+            <a href="https://www.google.de/"><button type="button" id="weiterleitbtn">Ja</button></a>
+        </div>
+    </div>
+    <div class="box-3">
+        <img src="./bilder/foto1.png" class="werbungimg" onclick="dialogbox()";>
+    </div>
+    <div class="box-4">
+        <article>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias animi architecto asperiores aspernatur
+            culpa, cupiditate debitis deleniti distinctio dolor ducimus, eaque eos est exercitationem fuga fugit, id
+            impedit magni natus neque pariatur possimus quis recusandae reiciendis rerum sequi soluta voluptates? Autem
+            minima perspiciatis quidem. A ad architecto, aut cum debitis, ea earum, ex expedita facilis fuga fugiat
+            fugit incidunt laboriosam magnam minus nam odit optio pariatur placeat porro quae quasi quibusdam quos
+            repudiandae sed sequi suscipit totam vel vero voluptas. Amet aut corporis earum, exercitationem fugiat
+            itaque labore laudantium obcaecati officia, quasi quia quis sequi ut veniam voluptate voluptatum?
+        </article>
+        <div class="auswahl">
+            <img src="./bilder/fall1.jpg" title="Frankfurt mietet überdimensionale Immobilie"
+                 id="bild1" onclick="show_descriptions('fall1');">
+            <img src="./bilder/fall2.png" title="Ein ganz schlechter Deal" id="bild2" onclick="show_descriptions('fall2')" ;>
+            <img src="./bilder/fall1.jpg" title="Frankfurt mietet überdimensionale Immobilie"
+                 id="bild3" onclick="show_descriptions('fall3')" ;>
+            <img src="./bilder/fall2.png" title="Ein ganz schlechter Deal" id="bild4" onclick="show_descriptions('fall4')" ;>
+            <img src="./bilder/fall1.jpg" title="Frankfurt mietet überdimensionale Immobilie"
+                 id="bild5" onclick="show_descriptions('fall5')" ;>
+            <img src="./bilder/fall2.png" title="Ein ganz schlechter Deal" id="bild6" onclick="show_descriptions('fall6')" ;>
+        </div>
+        <div class="faelletext">
+            <p id="fall1" class="fallbeschreibungen">Fall 1 Beschreibung</p>
+            <p id="fall2" class="fallbeschreibungen">Fall 2 Beschreibung</p>
+            <p id="fall3" class="fallbeschreibungen">Fall 3 Beschreibung</p>
+            <p id="fall4" class="fallbeschreibungen">Fall 4 Beschreibung</p>
+            <p id="fall5" class="fallbeschreibungen">Fall 5 Beschreibung</p>
+            <p id="fall6" class="fallbeschreibungen">Fall 6 Beschreibung</p>
+        </div>
+    </div>
+    <div class="box-5">
+        <footer>
+
+        </footer>
+    </div>
+    <div class="box-6">
+        <img src="./bilder/werbhz.png" class="werbungimg">
+    </div>
+</div>
+
+
+</body>
+</html>
